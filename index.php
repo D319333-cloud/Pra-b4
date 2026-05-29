@@ -11,9 +11,9 @@
         <div class="header-container">
             <a href="/" class="logo">Fotogalerij</a>
             <nav>
-                <a href="/">Home</a>
-                <a href="/gallery.php">Fotogalerij</a>
-                <a href="/contact.php">Contact</a>
+                <a href="index.php">Home</a>
+                <a href="fotogalerij.php">Fotogalerij</a>
+                <a href="contact.php">Contact</a>
                 <span class="cart-icon">🛒</span>
             </nav>
         </div>
@@ -23,8 +23,8 @@
         <section class="hero">
             <div class="hero-content">
                 <h1>Fotogalerij</h1>
-                <p>Ontdek onze mooiste fotocollecties</p>
-                <a href="/gallery.php" class="explore-btn">Explore</a>
+                <p>Ontdek jullie achtbaan foto's!</p>
+                <a href="fotogalerij.php" class="explore-btn">Explore</a>
             </div>
         </section>
 
@@ -34,9 +34,8 @@
     <footer>
         <p>&copy; 2026 Fotogalerij. Alle rechten voorbehouden.</p>
         <p>
-            <a href="/contact.php">Contact</a>
+            <a href="contact.php">Contact</a>
         </p>
     </footer>
 </body>
 </html>
-.
