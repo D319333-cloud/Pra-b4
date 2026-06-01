@@ -1,6 +1,7 @@
 <?php 
 require_once("head.php");
 require_once("header.php");
+require_once("footer.php");
 ?>
 
 <title>Homepage | Pretpark Webapp</title>
@@ -23,13 +24,5 @@ require_once("header.php");
             </div>
         </section>
     </main>
-
-    <footer>
-        <p>&copy; 2026 Fotogalerij. Alle rechten voorbehouden.</p>
-        <p>
-            <a href="contact.php">Contact</a>
-        </p>
-    </footer>
-
 </body>
 </html>
