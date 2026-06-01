@@ -1,21 +1,12 @@
 <?php 
 require_once("head.php");
+require_once("header.php");
 ?>
 
 <title>Homepage | Pretpark Webapp</title>
 
 <body class="home-body">
-    <header>
-        <div class="header-container">
-            <a href="/" class="logo">Fotogalerij</a>
-            <nav>
-                <a href="index.php">Home</a>
-                <a href="fotogalerij.php">Fotogalerij</a>
-                <a href="contact.php">Contact</a>
-                <span class="cart-icon">🛒</span>
-            </nav>
-        </div>
-    </header>
+
 
     <div class="wrapper">
         <div class="h1_homepage">
