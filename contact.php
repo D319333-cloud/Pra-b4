@@ -1,7 +1,6 @@
 <?php 
 require_once("head.php");
 require_once("header.php");
-require_once("footer.php");
 
 $message_sent = false;
 
@@ -56,6 +55,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </form>
             </div>
     </main>
-
+<?php
+require_once("footer.php");
+?>
 </body>
 </html>

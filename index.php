@@ -1,7 +1,6 @@
 <?php 
 require_once("head.php");
 require_once("header.php");
-require_once("footer.php");
 ?>
 
 <title>Homepage | Pretpark Webapp</title>
@@ -24,5 +23,9 @@ require_once("footer.php");
             </div>
         </section>
     </main>
+
+<?php
+require_once("footer.php");
+?>
 </body>
 </html>
