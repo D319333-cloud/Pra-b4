@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fotogalerij - Home</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<?php 
+require_once("head.php");
+?>
+
+<title>Homepage | Pretpark Webapp</title>
+
+<body class="home-body">
     <header>
         <div class="header-container">
             <a href="/" class="logo">Fotogalerij</a>
@@ -16,16 +14,14 @@
                 <a href="contact.php">Contact</a>
                 <span class="cart-icon">🛒</span>
             </nav>
-    <title>Homepage | Pretpark Webapp</title>
-</head>
+        </div>
+    </header>
 
-<body class="home-body">
-    
     <div class="wrapper">
         <div class="h1_homepage">
             <h1>Welkom bij de Pretpark Webapp</h1>
         </div>
-    </header>
+    </div>
 
     <main>
         <section class="hero">
@@ -35,8 +31,6 @@
                 <a href="fotogalerij.php" class="explore-btn">Explore</a>
             </div>
         </section>
-
-        
     </main>
 
     <footer>
@@ -45,11 +39,6 @@
             <a href="contact.php">Contact</a>
         </p>
     </footer>
+
 </body>
-</html>
-
-<footer>
-        <p>&copy; Beau | Milan | Davey</p>
-</footer>
-
 </html>
