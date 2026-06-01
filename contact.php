@@ -8,9 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = htmlspecialchars($_POST['email'] ?? '');
     $subject = htmlspecialchars($_POST['subject'] ?? '');
     $message = htmlspecialchars($_POST['message'] ?? '');
-    
-    // Hier kun je later de email versturen of opslaan in database
-    // Voor nu tonen we alleen een bevestiging
+
     if (!empty($name) && !empty($email) && !empty($subject) && !empty($message)) {
         $message_sent = true;
     }
