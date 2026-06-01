@@ -16,6 +16,14 @@
                 <a href="contact.php">Contact</a>
                 <span class="cart-icon">🛒</span>
             </nav>
+    <title>Homepage | Pretpark Webapp</title>
+</head>
+
+<body class="home-body">
+    
+    <div class="wrapper">
+        <div class="h1_homepage">
+            <h1>Welkom bij de Pretpark Webapp</h1>
         </div>
     </header>
 
@@ -38,4 +46,10 @@
         </p>
     </footer>
 </body>
+</html>
+
+<footer>
+        <p>&copy; Beau | Milan | Davey</p>
+</footer>
+
 </html>
