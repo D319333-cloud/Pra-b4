@@ -1,5 +1,6 @@
 <?php 
 require_once("head.php");
+require_once("header.php");
 
 $message_sent = false;
 
@@ -18,17 +19,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <title>Contact | Pretpark Webapp</title>
 
 <body>
-    <header>
-        <div class="header-container">
-            <a href="/" class="logo">Fotogalerij</a>
-            <nav>
-                <a href="index.php">Home</a>
-                <a href="fotogalerij.php">Fotogalerij</a>
-                <a href="contact.php">Contact</a>
-                <span class="cart-icon">🛒</span>
-            </nav>
-        </div>
-    </header>
 
     <main>
                 <div class="contact-form-wrapper">
