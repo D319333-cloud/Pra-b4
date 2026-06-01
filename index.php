@@ -20,7 +20,7 @@ require_once("footer.php");
             <div class="hero-content">
                 <h1>Fotogalerij</h1>
                 <p>Ontdek jullie achtbaan foto's!</p>
-                <a href="fotogalerij.php" class="explore-btn">Explore</a>
+                <a href="<?php echo $base_url; ?>/foto-galerij.php" class="explore-btn">Explore</a>
             </div>
         </section>
     </main>
