@@ -24,12 +24,14 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `photos`
+-- Table structure for table `fotos`
 --
 
-CREATE TABLE `photos` (
+CREATE TABLE `fotos` (
   `id` int NOT NULL,
-  `fileName` varchar(255) NOT NULL
+  `file_name` varchar(255) NOT NULL,
+  `day_name` varchar(50) NOT NULL,
+  `day_number` int NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
@@ -37,9 +39,9 @@ CREATE TABLE `photos` (
 --
 
 --
--- Indexes for table `photos`
+-- Indexes for table `fotos`
 --
-ALTER TABLE `photos`
+ALTER TABLE `fotos`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -47,9 +49,9 @@ ALTER TABLE `photos`
 --
 
 --
--- AUTO_INCREMENT for table `photos`
+-- AUTO_INCREMENT for table `fotos`
 --
-ALTER TABLE `photos`
+ALTER TABLE `fotos`
   MODIFY `id` int NOT NULL AUTO_INCREMENT;
 COMMIT;
 
