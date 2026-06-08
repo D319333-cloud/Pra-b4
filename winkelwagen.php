@@ -72,6 +72,8 @@ require_once("header.php");
 
     <form method="POST">
 
+        <input type="hidden" name="update" value="1">
+
         <div class="cart-table-wrapper">
 
             <table class="cart-table">
@@ -118,6 +120,7 @@ require_once("header.php");
                                 name="quantity[<?= $id; ?>]" 
                                 value="<?= $item['quantity']; ?>" 
                                 min="0"
+                                onchange="this.form.submit()"
                             >
                         </td>
 
