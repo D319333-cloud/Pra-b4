@@ -15,7 +15,7 @@ require_once("header.php");
              style="max-width:200px; margin-bottom:20px;">
 
         <h1>Betaling Gelukt</h1>
-        <p>Je betaling is succesvol verwerkt. Je kunt nu je foto's bekijken!</p>
+        <p>Je betaling is gelukt!</p>
 
         <a href="<?php echo $base_url; ?>/foto-galerij.php" class="explore-btn">
             Naar de Fotogalerij
