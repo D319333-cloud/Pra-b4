@@ -27,7 +27,7 @@ require_once("backend/filtercontroller.php");
                 <div>
                     <img src="<?php echo $base_url; ?>/fotos/<?php echo $foto['file_name']; ?>" alt="<?php echo $foto['file_name']; ?>">
                     <p><?php echo $foto['day_name']; ?></p>
-                    <button>Koopen</button>
+                    <button>Kopen</button>
                 </div>
             </article>
         <?php endforeach; ?>
