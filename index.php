@@ -19,7 +19,7 @@ require_once("header.php");
             <div class="hero-content">
                 <h1>Fotogalerij</h1>
                 <p>Ontdek jullie achtbaan foto's!</p>
-                <a href="<?php echo $base_url; ?>/foto-galerij.php" class="explore-btn">Explore</a>
+                <a href="<?php echo $base_url; ?>/foto-galerij.php" class="explore-btn">Naar fotogalerij</a>
             </div>
         </section>
     </main>
