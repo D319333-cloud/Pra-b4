@@ -147,8 +147,8 @@ require_once("header.php");
                 Verder winkelen
             </a>
 
-            <button class="cart-update-btn" type="submit" name="update">
-                Winkelmand updaten
+            <button class="cart-update-btn">
+                <a class="cart-update-btn" href="paginamelding.php">Betalen</a>
             </button>
 
         </div>
