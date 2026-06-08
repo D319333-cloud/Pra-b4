@@ -27,8 +27,10 @@ require_once("backend/filtercontroller.php");
                 <div>
                     <img src="<?php echo $base_url; ?>/fotos/<?php echo $foto['file_name']; ?>" alt="<?php echo $foto['file_name']; ?>">
                     <p><?php echo $foto['day_name']; ?></p>
+                    <a href="winkelwagen.php">
                     <button>Kopen</button>
-                </div>
+                    </a>
+            </div>
             </article>
         <?php endforeach; ?>
     </main>
