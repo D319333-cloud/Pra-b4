@@ -640,3 +640,261 @@ footer a:hover {
         padding-bottom: 1.5rem;
     }
 }
+
+/* ===== WINKELWAGEN ===== */
+
+.cart-container {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+}
+
+.cart-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.cart-title h1 {
+    font-size: 3rem;
+    color: #0B4F8A;
+}
+
+.cart-empty {
+    background: white;
+    padding: 3rem;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 128, 255, 0.1);
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.cart-table-wrapper {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-table thead {
+    background: linear-gradient(135deg, #87CEEB 0%, #ADD8E6 100%);
+}
+
+.cart-table th {
+    color: white;
+    padding: 1.2rem;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.cart-table td {
+    padding: 1.2rem;
+    border-bottom: 1px solid #EAEAEA;
+    vertical-align: middle;
+}
+
+.cart-table tr:last-child td {
+    border-bottom: none;
+}
+
+.cart-product {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cart-product img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cart-product-name {
+    font-weight: 600;
+    color: #0B4F8A;
+}
+
+.cart-price,
+.cart-subtotal {
+    font-weight: 600;
+    color: #0080FF;
+}
+
+.cart-quantity input {
+    width: 70px;
+    padding: 0.5rem;
+    border: 2px solid #DDEEFF;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.cart-quantity input:focus {
+    outline: none;
+    border-color: #0080FF;
+    box-shadow: 0 0 8px rgba(0, 128, 255, 0.2);
+}
+
+.cart-remove {
+    background: linear-gradient(135deg, #FF6B6B 0%, #E63946 100%);
+    color: white;
+    padding: 0.7rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.cart-remove:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(230, 57, 70, 0.25);
+}
+
+.cart-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.cart-update-btn,
+.cart-back-btn,
+.cart-checkout-btn {
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.cart-update-btn {
+    background: linear-gradient(135deg, #4DA6FF 0%, #0080FF 100%);
+    color: white;
+}
+
+.cart-update-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 128, 255, 0.25);
+}
+
+.cart-back-btn {
+    background: #EAEAEA;
+    color: #333;
+}
+
+.cart-back-btn:hover {
+    background: #DADADA;
+}
+
+.cart-checkout-btn {
+    background: linear-gradient(135deg, #43C465 0%, #28A745 100%);
+    color: white;
+}
+
+.cart-checkout-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(40, 167, 69, 0.25);
+}
+
+.cart-total {
+    margin-top: 2rem;
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: right;
+    box-shadow: 0 8px 25px rgba(0, 128, 255, 0.08);
+}
+
+.cart-total h2 {
+    color: #0B4F8A;
+    font-size: 2rem;
+}
+
+.cart-total span {
+    color: #0080FF;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+
+    .cart-table thead {
+        display: none;
+    }
+
+    .cart-table,
+    .cart-table tbody,
+    .cart-table tr,
+    .cart-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .cart-table tr {
+        margin-bottom: 1.5rem;
+        background: white;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+
+    .cart-table td {
+        text-align: right;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    .cart-table td::before {
+        position: absolute;
+        left: 1rem;
+        top: 1.2rem;
+        font-weight: bold;
+        color: #0B4F8A;
+    }
+
+    .cart-table td:nth-child(1)::before {
+        content: "Product";
+    }
+
+    .cart-table td:nth-child(2)::before {
+        content: "Prijs";
+    }
+
+    .cart-table td:nth-child(3)::before {
+        content: "Aantal";
+    }
+
+    .cart-table td:nth-child(4)::before {
+        content: "Subtotaal";
+    }
+
+    .cart-table td:nth-child(5)::before {
+        content: "Actie";
+    }
+
+    .cart-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .cart-update-btn,
+    .cart-back-btn,
+    .cart-checkout-btn {
+        width: 100%;
+        text-align: center;
+    }
+}
