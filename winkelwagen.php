@@ -146,7 +146,7 @@ require_once("header.php");
 
         <div class="cart-actions">
 
-            <a class="cart-back-btn" href="index.php">
+            <a class="cart-back-btn" href="foto-galerij.php">
                 Verder winkelen
             </a>
 
